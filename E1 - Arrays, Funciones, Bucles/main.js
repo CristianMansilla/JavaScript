@@ -5,11 +5,11 @@ function ordenarParesEImpares (pizza){
     let impares = [];
 
     for(let i = 0; i < ingredientes.length; i++){
-        let cantLetras = ingredientes[i].length;
+        let cantLetras = pizza[i].length;
         if(cantLetras % 2 == 0){
-            pares.push(ingredientes[i]);
+            pares.push(pizza[i]);
         }else{
-            impares.push(ingredientes[i]);
+            impares.push(pizza[i]);
         }
     }
     return [
