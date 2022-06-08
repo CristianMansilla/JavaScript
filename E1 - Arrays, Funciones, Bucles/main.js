@@ -1,10 +1,10 @@
 let ingredientes = ["Harina", "Agua", "Sal", "Levadura", "Orégano", "Tomate", "Cebolla", "Queso", "Jamón", "Aceituna"];
-
+let hola;
 function ordenarParesEImpares (pizza){
     let pares = [];
     let impares = [];
 
-    for(let i = 0; i < ingredientes.length; i++){
+    for(let i = 0; i < pizza.length; i++){
         let cantLetras = pizza[i].length;
         if(cantLetras % 2 == 0){
             pares.push(pizza[i]);
