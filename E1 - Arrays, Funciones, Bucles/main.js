@@ -1,5 +1,5 @@
 let ingredientes = ["Harina", "Agua", "Sal", "Levadura", "Orégano", "Tomate", "Cebolla", "Queso", "Jamón", "Aceituna"];
-let hola;
+
 function ordenarParesEImpares (pizza){
     let pares = [];
     let impares = [];
