@@ -27,12 +27,28 @@ a:hover{
     transition: all 0.3s ease;
 }
 
-.entregas{
+.container{
     margin: 30px;
 }
 
-.e1{
+.entrega{
     background-color: salmon;
     padding: 20px;
     border-radius: 8px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.consigna{
+    margin: 10px;
+}
+
+.tips{
+    margin: 20px;
+}
+
+.margen{
+    margin-top: 20px;
 }
